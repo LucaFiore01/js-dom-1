@@ -25,3 +25,7 @@
 .lampadina-accesa.show {
     opacity: 1;
 }
+
+.lampadina-spenta.hide {
+   opacity: 0;
+}

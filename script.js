@@ -2,6 +2,7 @@
 // selezione elemento (bottone)
 const button = document.querySelector('.bottone')
 // selezione elemento (lampadina)
-const lamp = document.querySelector('.lampadina-spenta')
+const offLamp = document.querySelector('.lampadina-spenta')
+const onLamp = document.querySelector('.lampadina-accesa')
 
 // gestione accensione lampadina

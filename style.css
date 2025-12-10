@@ -3,7 +3,23 @@
     height: 30px;
     margin-left: 50%;
 
+}
 
+.bottone-off {
+
+    cursor: pointer;
+    height: 30px;
+    margin-left: 50%;
+    opacity: 0;
+
+}
+
+.bottone-off.show {
+    opacity: 1;
+}
+
+.bottone.hide {
+    opacity: 0;
 }
 
 .lamp-box {

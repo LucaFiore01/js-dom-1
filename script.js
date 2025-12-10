@@ -16,4 +16,12 @@ button.addEventListener('click',
     }
 )
 
-
+// gestione spegnimento lampadina
+offButton.addEventListener('click',
+    function() {
+        offButton.classList.remove('show')
+        button.classList.remove('hide')
+        onLamp.classList.remove('show')
+        offLamp.classList.remove('hide')
+    }
+)
